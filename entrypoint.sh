@@ -1,0 +1,5 @@
+#!/bin/sh
+
+cd /app/backend
+
+gunicorn --bind 0.0.0.0:8000 wsgi:app
