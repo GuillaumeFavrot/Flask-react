@@ -14,7 +14,7 @@ export default function Test() {
 
   const dispatch = useDispatch()
 
-
+  console.log(test)
 
   const onMessageChange = (e) => {
     setNewMessage(e.target.value)

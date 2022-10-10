@@ -6,6 +6,8 @@ services:
       context: .
     ports:
       - "8000:8000"
+    volumes:
+      - ./../flask-react:/app
 
   nginx:
     build: ./nginx
