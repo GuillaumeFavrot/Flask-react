@@ -29,7 +29,7 @@ db.init_app(app)
 
 #Comment this on deployment
 CORS(app) 
-
+ 
 # Run server
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=8000)
