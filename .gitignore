@@ -27,4 +27,4 @@ yarn-error.log*
 /.env
 
 #db
-db.sqlite
+frontend/db.sqlite
