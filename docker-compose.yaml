@@ -2,14 +2,14 @@ version: '3.7'
 
 services:
   flask_gunicorn:
+    restart: always
     build:
       context: .
     ports:
       - "8000:8000"
-    volumes:
-      - ./../flask-react:/app
 
   nginx:
+    restart: always
     build: ./nginx
     ports:
       - "80:80"
